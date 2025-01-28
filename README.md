@@ -1,0 +1,2 @@
+# Swift Type Mismatch Error in Function Parameter
+This example demonstrates a common type mismatch error in Swift functions.  The `calculateArea` function expects both width and height to be `Double` values. Passing a string to the height parameter causes a compiler error because the types don't match.  The solution shows how to fix this by converting the string to a double before passing it to the function.
